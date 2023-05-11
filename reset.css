@@ -1,0 +1,249 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+Aviso: "https://www.figma.com/file/sSMbIqKaGBd6…"
+MARCELO DE ASSUNCAO
+Criado em: 4 de mai.4 de mai.
+https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks
+
+
+Postada por THAYUANNE VITORIA DA COSTA
+THAYUANNE VITORIA DA COSTA
+Criado em: 27 de abr.27 de abr.
+Segue trabalho Primeiro Tri:
+
+Nome: Thayuanne
+Nº: 35
+
+GitHub - thayuanneoficial/primeirotri
+https://github.com/thayuanneoficial/primeirotri/tree/main
+
+
+Aviso: "@import…"
+MARCELO DE ASSUNCAO
+Criado em: 19 de abr.19 de abr.
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap&#39;);
+
+* {
+  margin: 0 10px;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #232c2f 16.62%, #1a8e37 85.61%);
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.cabecalho-imagem {
+  height: 72px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.cabecalho-menu-item {
+  font-family: 'Sarala', sans-serif;
+  color: #0a0217;
+  font-weight: 400;
+  font-size: 18px
+}
+
+.conteudo {
+  margin-bottom: 48px;
+  border-top: 0.4px solid #118fe3;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: #FFF2E7;
+}
+
+.conteudo-principal-escrito-subtitulo {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ECD6C4;
+}
+
+.conteudo-principal-escrito-botao {
+  background-color: #ECD6C4;
+  width: 180px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #2F2325;
+}
+
+.conteudo-principal-escrito-botao:hover {
+  background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteudo-principal-imagem {
+  height: 430px;
+}
+
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+  border-top: 0.4px solid #FFF2E7;
+  padding-top: 48px;
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFF2EF;
+  margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #ECD6C4;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.rodape-imagem {
+  height: 72px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+Aviso: "<!DOCTYPE html> <html lang="pt-BR">…"
+MARCELO DE ASSUNCAO
+Criado em: 12 de abr.12 de abr.
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <title>.</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <img class="cabecalho-imagem" src="="">
+    <nav class="cabecalho-menu">
+      <a class="cabecalho-menu-item" href=""></a>
+      <a class="cabecalho-menu-item"></a>
+      <a class="cabecalho-menu-item"></a>
+      <a class="cabecalho-menu-item"></a>
+    </nav>
+    </header>
+
+  <main class="conteudo">
+    <section class="conteudo-principal">
+      <div class="conteudo-principal-escrito">
+        <h1 class="conteudo-principal-escrito-titulo"></h1>
+        <h2 class="conteudo-principal-escrito-subtitulo"></h2>
+        <button class="conteudo-principal-escrito-botao"></button>
+      </div>
+      <img class="conteudo-principal-imagem"src="" alt="">
+    </section>
+
+   
+    <section class="conteudo-secundario">
+      <h3 class="conteudo-secundario-titulo"></h3>
+      <p class="conteudo-secundario-paragrafo"> <strong> ,</strong>  </p>
+      <p class="conteudo-secundario-paragrafo"> <strong></p>
+      <p class="conteudo-secundario-paragrafo"><strong></strong></p>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <img class="rodape-imagem" src="
+  </footer>
+</body>
+
+</html>
